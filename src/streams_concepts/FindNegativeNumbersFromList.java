@@ -12,6 +12,7 @@ public class FindNegativeNumbersFromList {
     static List<Integer> findNegativesWithString(List<Integer> numbers) {
         return numbers.stream().filter(e -> Integer.toString(e).contains("-")).toList();
     }
+    
     public static void main(String[] args) {
         List<Integer> numbers = Arrays.asList(5, 12, -9, 9, 3, -15, 88);
         System.out.println(findNegatives(numbers));
