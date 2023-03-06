@@ -1,2 +1,3 @@
 # java-8-plus-concepts
-Important java 8 plus sample programs
+
+Important java 8 plus notes and sample study programs.
