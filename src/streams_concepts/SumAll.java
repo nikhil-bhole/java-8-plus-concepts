@@ -11,5 +11,11 @@ public class SumAll {
         int sum = numbers.stream().reduce(0,Integer::sum);
 
         System.out.println(sum);
+
+        Integer _sum = numbers.stream()
+                .mapToInt(Integer::intValue)
+                .sum();
+
+        System.out.println(_sum);
     }
 }
